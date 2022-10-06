@@ -1,0 +1,249 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i,
+center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "微軟正黑體";
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  line-height: 1;
+}
+
+main {
+  display: block;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button {
+  font-family: "微軟正黑體";
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0px;
+}
+
+select, input {
+  font-family: "微軟正黑體";
+  outline: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+}
+html body {
+  width: 100%;
+  min-width: 1200px;
+  height: auto;
+  overflow: hidden;
+}
+html body main {
+  width: 100%;
+  height: 1000px;
+}
+html body main article {
+  width: 1100px;
+  height: 100%;
+  margin: 0px auto;
+}
+html body main article section {
+  width: 100%;
+  height: 50%;
+  position: relative;
+}
+html body main article section.top .logo {
+  width: 386px;
+  height: 115px;
+  background: url("../images/logo.png") no-repeat;
+  background-size: 100%;
+  position: absolute;
+  left: 36px;
+  top: 66px;
+  z-index: 10;
+}
+html body main article section.top .inputbox {
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 216px;
+  left: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 10;
+}
+html body main article section.top .inputbox .box {
+  width: auto;
+  height: auto;
+}
+html body main article section.top .inputbox .box label {
+  display: block;
+  width: auto;
+  height: auto;
+  position: relative;
+  margin-bottom: 25px;
+}
+html body main article section.top .inputbox .box label:last-child {
+  margin-bottom: 40px;
+}
+html body main article section.top .inputbox .box label:last-child input {
+  background-position-y: 100%;
+}
+html body main article section.top .inputbox .box label input {
+  width: 325px;
+  height: 50px;
+  background: url("../images/input_bg.png") no-repeat;
+  border: none;
+  -webkit-box-shadow: 0 5px 10px 0 #00000080;
+          box-shadow: 0 5px 10px 0 #00000080;
+  color: #ffffff;
+  font-size: 25px;
+  padding-left: 10px;
+}
+html body main article section.top .inputbox .box label input::-webkit-input-placeholder {
+  color: #ffffff;
+}
+html body main article section.top .inputbox .box label input::-moz-placeholder {
+  color: #ffffff;
+}
+html body main article section.top .inputbox .box label input:-ms-input-placeholder {
+  color: #ffffff;
+}
+html body main article section.top .inputbox .box label input::-ms-input-placeholder {
+  color: #ffffff;
+}
+html body main article section.top .inputbox .box label input::placeholder {
+  color: #ffffff;
+}
+html body main article section.top .inputbox button {
+  width: 328px;
+  height: 70px;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(28%, #ffffff), color-stop(50%, #c4c6d1), color-stop(60%, #ffffff), to(#dbe5e8));
+  background: linear-gradient(to top, #ffffff 28%, #c4c6d1 50%, #ffffff 60%, #dbe5e8 100%);
+  border: solid 1px #ffffff;
+  border-radius: 50px;
+  -webkit-box-shadow: 0 5px 10px 0 #00000080;
+          box-shadow: 0 5px 10px 0 #00000080;
+  color: #051a82;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+html body main article section.top .inputbox button:hover, html body main article section.top .inputbox button:active, html body main article section.top .inputbox button.active {
+  background: -webkit-gradient(linear, left bottom, left top, from(#c91c69), color-stop(71%, #a31756));
+  background: linear-gradient(to top, #c91c69 0%, #a31756 71%);
+  border-color: #f7ff24;
+  color: #f7ff24;
+}
+html body main article section.bottom .img1 {
+  width: 1920px;
+  height: 899px;
+  background: url("../images/img1.png") no-repeat;
+  position: absolute;
+  left: -410px;
+  bottom: 101px;
+  -webkit-animation: lag 0.3s linear 0s, img1 0.2s linear 0.3s;
+          animation: lag 0.3s linear 0s, img1 0.2s linear 0.3s;
+  z-index: 1;
+}
+html body .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-width: 1200px;
+  height: 100%;
+  background: url("../images/bg.jpg") no-repeat top center;
+  z-index: -999;
+}
+
+@-webkit-keyframes img1 {
+  0% {
+    opacity: 0;
+    width: 0;
+  }
+  100% {
+    opacity: 1;
+    width: 1920px;
+  }
+}
+
+@keyframes img1 {
+  0% {
+    opacity: 0;
+    width: 0;
+  }
+  100% {
+    opacity: 1;
+    width: 1920px;
+  }
+}
+@-webkit-keyframes lag {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes lag {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
