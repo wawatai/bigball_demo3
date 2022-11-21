@@ -98,13 +98,13 @@ html body main article section {
   position: relative;
 }
 html body main article section.top .logo {
-  width: 386px;
-  height: 115px;
+  width: 353px;
+  height: 151px;
   background: url("../images/logo.png") no-repeat;
   background-size: 100%;
   position: absolute;
-  left: 36px;
-  top: 66px;
+  left: 49px;
+  top: 39px;
   z-index: 10;
 }
 html body main article section.top .inputbox {
@@ -147,8 +147,8 @@ html body main article section.top .inputbox .box label input {
   height: 50px;
   background: url("../images/input_bg.png") no-repeat;
   border: none;
-  -webkit-box-shadow: 0 5px 10px 0 #00000080;
-          box-shadow: 0 5px 10px 0 #00000080;
+  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5019607843);
+          box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5019607843);
   color: #ffffff;
   font-size: 25px;
   padding-left: 10px;
@@ -175,8 +175,8 @@ html body main article section.top .inputbox button {
   background: linear-gradient(to top, #ffffff 28%, #c4c6d1 50%, #ffffff 60%, #dbe5e8 100%);
   border: solid 1px #ffffff;
   border-radius: 50px;
-  -webkit-box-shadow: 0 5px 10px 0 #00000080;
-          box-shadow: 0 5px 10px 0 #00000080;
+  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5019607843);
+          box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5019607843);
   color: #051a82;
   font-size: 30px;
   font-weight: bold;
